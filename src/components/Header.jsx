@@ -22,7 +22,7 @@ const Header = () => {
       { !hideSearchBarFormSearch && (<>
       <div className="search-bar">
           <div className="search-bar__logo-container">
-            
+            <img className='search-bar__carrito-container__img' src="public\img\cart.png" alt="" />
           </div>
           <form action="" className="search-bar__form-container">
             <label htmlFor="busqueda" className="search-bar__form-label">
