@@ -1,0 +1,82 @@
+.contacto-Body {
+    box-sizing: 0;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    font-family: "Bebas Neue", cursive;
+    color: #fff;
+}
+
+.container-contacto-h1 {
+    margin-top: 100px;
+    text-transform: uppercase;
+    display: inline-block;
+    place-items: center;
+}
+
+
+.container-form-contacto {
+    width: 60%;
+    display: grid;
+    place-items: center;
+    margin: auto;
+}
+
+.contacto-Form {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    letter-spacing: 1px;
+    
+    @media (max-width: 768px) {
+        max-width: 90%; // Cambia el ancho máximo en pantallas más pequeñas
+    }
+}
+
+.contacto-label {
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+
+.contacto-input {
+    background-color: #d7d7d7;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #949494;
+    border-radius: 5px;
+    
+    @media (max-width: 768px) {
+        font-size: 14px; // Cambia el tamaño de fuente en pantallas más pequeñas
+    }
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #ffffff;
+    font-size: 18px;
+    letter-spacing: 1px;
+    border: none;
+    padding: 15px 30px;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    
+    @media (max-width: 768px) {
+        width: 100%; // El botón ocupa todo el ancho en pantallas más pequeñas
+    }
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+  

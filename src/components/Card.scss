@@ -1,0 +1,117 @@
+.cards-container {
+  background-color: #f9f9f9;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+}
+
+
+.card {
+  outline: none; 
+  width: 280px;
+  max-width: 300px;
+  height: 425px;
+  overflow: hidden; 
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  box-shadow: 0 1px 5px rgba(0,0,0, .2), 0 0 3px rgba(0,0,0, .3);
+  text-decoration: none;
+  background: #000000;  
+  background: -webkit-linear-gradient(to right, #434343, #000000);  
+  background: linear-gradient(to right, #434343, #000000);
+
+  @media (min-width: 320px) and (max-width: 425px) {
+    &:nth-child(-n + 1) {
+      margin-top: 40px;
+    }
+  }
+ 
+  transition: all .3s;
+
+    &:hover,
+    &:focus {
+      transform: scale(1) skewX(0);
+      transform-origin: bottom;
+      box-shadow: 0 7px 8px rgba(0,0,0, .05), 0 3px 3px rgba(0,0,0, .01);
+    } 
+
+  &__image-container {
+    height: 250px;
+    background-color: blue;
+    overflow: hidden;
+    transition: .5s, color .10s;
+    -webkit-transition: .5s, color .10s;
+    -moz-transition: .5s, color .10s;
+    
+  
+    &:hover {
+      transform: translatey(-20px);
+      -webkit-transform: translatey(-20px);
+      -moz-transform: translatey(-20px);
+    
+    }
+  }
+
+  &__image {
+    width: 100%;
+    height: 100%; 
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+   
+    &:hover &__image,
+    &:focus &__image {
+      display: none;
+  }
+  }
+
+    &__content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+
+    &__heading {
+      display: inline-block;
+      margin-top: 8px;
+      text-align: center;
+      color: white;
+      font-weight: lighter;
+      letter-spacing: 1px;
+    }
+
+    &__description {
+      display: block;
+      margin-top: 20px;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+
+    p{
+      display: inline-block;
+      padding: 12px 24px;
+      margin-top: 40px;
+      background-color: #f9f9f9;
+      color: black;
+      border: none;
+      border-radius: 20px;
+      letter-spacing: 1px;
+      overflow: hidden;
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    
+    p:hover{
+        background: #ffffff;
+        color: #004cff;
+        box-shadow: 
+        0 0 5px #f7f7f7,
+        0 0 5px #f7f7f7,
+        0 0 5px #f7f7f7,
+        0 0 15px #f7f7f7;
+  }
+}

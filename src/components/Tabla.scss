@@ -1,0 +1,36 @@
+/* Tabla.scss */
+.tabla-alta {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .tabla-alta th,
+  .tabla-alta td {
+    padding: 12px 15px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+  }
+  
+  .tabla-alta th {
+    background-color: #f5f5f5;
+    font-weight: bold;
+    letter-spacing: 1px;
+  }
+  
+  .tabla-alta td {
+    background-color: #fff;
+  }
+  
+  .tabla-alta tbody tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .tabla-alta tbody tr:nth-child(odd) {
+    background-color: #fff;
+  }
+  
+  .tabla-alta tbody tr:hover {
+    background-color: #e5e5e5;
+    cursor: pointer;
+  }
+  

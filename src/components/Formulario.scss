@@ -1,0 +1,42 @@
+/* Formulario.scss */
+ .container_form-Alta {  
+    display: block;
+    text-align: center;
+    margin: 100px 50px 50px 50px;
+  }
+  
+  .form-Alta {
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-Alta h3 {
+    color: #333;
+  }
+  
+  .form-Alta_Label {
+    display: block;
+    margin-bottom: 8px;
+   text-align: center;
+  }
+  
+  .form-Alta_Input {
+    width: 50%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+  }
+  
+  .form-Alta button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px 15px 0 15px;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+   

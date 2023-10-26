@@ -1,0 +1,34 @@
+
+.carrito-h1 {
+    display:inline-flex;
+    margin-top: 100px;
+    margin-left: 75px;
+}
+
+
+table.tabla-carrito {
+    background-color: rgb(214, 214, 214);
+    letter-spacing: 1px;
+    font-size: 20px;
+    border-collapse: collapse;
+    width: 90%;
+    margin: 50px auto;
+    color: black;
+
+    th, td {
+        border: 2px solid #ffffff;
+        padding: 10px;
+        text-align: left;
+    }
+
+    th {
+        background-color: rgb(152, 152, 152)
+    }
+}
+
+.th-producto {
+    color: black;
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+
