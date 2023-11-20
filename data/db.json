@@ -100,56 +100,5 @@
       "envio": true
     }
   ],
-  "carrito": [
-    [
-      {
-        "nombre": "IPhone 12",
-        "foto": "img/apple-iphone-12.jpg",
-        "detalles": "Agregar al carro",
-        "precio": 240.3,
-        "stock": "4",
-        "marca": "Apple",
-        "categoria": "celulares",
-        "id": 2,
-        "envio": true,
-        "cantidad": 2
-      },
-      {
-        "nombre": "IPhone 11 Pro Max",
-        "foto": "img/apple-iphone-11-pro-max.jpg",
-        "detalles": "Agregar al carro",
-        "precio": 250.5,
-        "stock": "5",
-        "marca": "Apple",
-        "categoria": "celulares",
-        "id": 1,
-        "envio": false,
-        "cantidad": 1
-      },
-      {
-        "id": 6,
-        "nombre": "Chromecast",
-        "precio": 332.22,
-        "stock": 4,
-        "marca": "Google",
-        "categoria": "Electronica",
-        "detalles": "Agregar al carro",
-        "foto": "img/chromecast-google.jpg",
-        "envio": true,
-        "cantidad": 1
-      },
-      {
-        "id": 8,
-        "nombre": "Televisor 8K",
-        "precio": "2222",
-        "stock": "2",
-        "marca": "Sorny",
-        "categoria": "Electro",
-        "detalles": "Agregar al carro",
-        "foto": "img/img-televisor-1.webp",
-        "envio": true,
-        "cantidad": 1
-      }
-    ]
-  ]
+  "carrito": []
 }

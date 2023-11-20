@@ -69,8 +69,8 @@ const Carrito = () => {
      
       </div>
 
-      <div class="d-grid gap-2 col-6 mx-auto">
-      { !carrito.length <= 0 && <button class="btn btn-primary" type="button" onClick={handleComprar}>Comprar</button>}
+      <div className="d-grid gap-2 col-6 mx-auto">
+      { !carrito.length <= 0 && <button className="btn btn-primary" type="button" onClick={handleComprar}>Comprar</button>}
       </div>
     </>
   );

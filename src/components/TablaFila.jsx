@@ -46,7 +46,7 @@ const TablaFila = ({ producto, setProductoAEditar }) => {
       <td>{producto.envio ? 'SI' : 'NO'}</td>
       <td>
         <button className='table-button-1' onClick={() => handleUpdate(producto)}>Editar</button>
-        <button className='table-button-2' onClick={() => handleDelete(producto.id)}>Borrar</button>
+        <button className='table-button-2' onClick={() => handleDelete(producto._id)}>Borrar</button>
       </td>
     </tr>
   )
