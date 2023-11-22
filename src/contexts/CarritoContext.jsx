@@ -7,7 +7,7 @@ import { post } from "../utils/http";
 const CarritoContext = createContext()
 /* 2da -> El armado del Provider */
 
-const url = 'https://65396aebe3b530c8d9e86337.mockapi.io/api/bootcamp/ecommerce/Productos'
+const url = 'https://bc-ecommerce-francoh.onrender.com/api/carritos/'
 
 const CarritoProvider = ( { children} ) => {
     const [ agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito ] = useLocalStorage('carrito', [])
