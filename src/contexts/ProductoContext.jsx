@@ -6,7 +6,7 @@ import { del, get, post, put } from "../utils/http";
 const ProductoContext = createContext()
 
 /* 2do -> El armado del Provider */
-const url = /* 'https://bc-ecommerce-francoh.onrender.com/api/productos/' */ 'http://localhost:8888/api/productos/'
+const url = 'https://bc-ecommerce-francoh.onrender.com/api/productos/' 
 
 const ProductoProvider = ( { children } ) => {
     const [productos, setProductos] = useState(null)

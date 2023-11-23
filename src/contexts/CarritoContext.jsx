@@ -7,8 +7,7 @@ import { post } from "../utils/http";
 const CarritoContext = createContext()
 /* 2da -> El armado del Provider */
 
-const url = /* 'https://bc-ecommerce-francoh.onrender.com/api/carritos/' */ 'http://localhost:5173/api/carrito/'
-
+const url = 'https://bc-ecommerce-francoh.onrender.com/api/carritos/' 
 const CarritoProvider = ( { children} ) => {
     const [ agregarAlCarrito, eliminarDelCarrito, limpiarCarrito, carrito ] = useLocalStorage('carrito', [])
 
