@@ -2,6 +2,7 @@ import { useContext } from 'react'
 import Card from '../components/Card'
 import './Inicio.scss'
 import ProductoContext from '../contexts/ProductoContext'
+import Footer from '../components/Footer'
 
 
 const Inicio = () => {
@@ -29,6 +30,10 @@ const Inicio = () => {
 
   </section> {/* <!-- .section-cards --> */}
 </main> {/* <!-- main --> */}
+
+
+
+
 
 <script type="module" src="/main.js"></script>
 
