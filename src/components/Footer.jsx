@@ -11,7 +11,7 @@ const Footer = () => {
 
 
   // Determina si se debe ocultar el footer
-  const hideFooter = location.pathname === "/contacto" || location.pathname === "/nosotros" || location.pathname === "/alta";
+  const hideFooter = location.pathname === "/contacto" || location.pathname === "/nosotros" || location.pathname === "/alta" || location.pathname === "/carrito" 
 
   return (
     <>
