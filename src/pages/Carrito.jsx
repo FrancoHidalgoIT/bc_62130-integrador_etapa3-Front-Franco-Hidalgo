@@ -23,7 +23,7 @@ const Carrito = () => {
 
   return (
     <>
-      <h1 className="carrito-h1">Listado de productos en el carrrito</h1>
+      <h1 className="title-carrito-h1">Listado de productos en el carrrito</h1>
   
       <table className="tabla-carrito">
         <thead>

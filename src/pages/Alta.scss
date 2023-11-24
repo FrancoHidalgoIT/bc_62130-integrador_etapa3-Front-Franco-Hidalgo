@@ -1,6 +1,17 @@
+.container-h1-Alta {
+    display: flex;
+}
+
 .Alta-H1 {
-    color: #f9f9f9;
-    display: inline-block;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: black;
     margin-top: 100px;
     text-align: center;
+    padding: 20px 20px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+
 }

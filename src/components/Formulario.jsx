@@ -73,10 +73,6 @@ const Formulario = ({ productoAEditar, setProductoAEditar}) => {
           <label className='form-Alta_Label' htmlFor="lbl-detalles">Detalles</label>
           <input className="form-Alta_Input" type="text" name="detalles" id="lbl-detalles" value={form.detalles} onChange={handleChange} />
         </div>
-       {/*  <div>
-          <label className='form-Alta_Label' htmlFor="lbl-foto">Foto</label>
-          <input className="form-Alta_Input" type="text" name="foto" id="lbl-foto" value={form.foto} onChange={handleChange} />
-        </div> */}
         <DragDrop />
         <div>
           <label className='form-Alta_Label' htmlFor="lbl-envio">Envío</label>

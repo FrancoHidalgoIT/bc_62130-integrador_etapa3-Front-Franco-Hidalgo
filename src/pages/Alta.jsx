@@ -9,12 +9,14 @@ const Alta = () => {
 
   return (
     <>
+    <div className='container-h1-Alta'>
     <h1 className='Alta-H1'>Formulario de alta de productos</h1>
+    </div>
      {/*  <h2>Agregar producto</h2> */}
       <Formulario productoAEditar={productoAEditar} setProductoAEditar={setProductoAEditar} />
       <hr />
       <Tabla setProductoAEditar={setProductoAEditar} />
-    </>
+      </>
   )
 }
 
