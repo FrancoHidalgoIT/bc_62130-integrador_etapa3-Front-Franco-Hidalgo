@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <footer>
       <div className="footer-content">
-        <p>&copy; {new Date().getFullYear()} FAHWebDevelopers <sup>tm</sup> <br /> Todos los derechos reservados.</p>
+        <p>&copy; {new Date().getFullYear()} TopSoftSolutions Web Develops <sup>tm</sup> <br /> Todos los derechos reservados.</p>
       </div>
     </footer>
   );
