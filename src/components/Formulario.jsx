@@ -2,6 +2,7 @@ import { useContext, useEffect, useState } from 'react'
 import ProductoContext from '../contexts/ProductoContext'
 import { useForm } from '../hooks/useForm'
 import './Formulario.scss'
+import DragDrop from './DragDrop'
 
 const formInicial = {
   id: null,
@@ -72,10 +73,11 @@ const Formulario = ({ productoAEditar, setProductoAEditar}) => {
           <label className='form-Alta_Label' htmlFor="lbl-detalles">Detalles</label>
           <input className="form-Alta_Input" type="text" name="detalles" id="lbl-detalles" value={form.detalles} onChange={handleChange} />
         </div>
-        <div>
+       {/*  <div>
           <label className='form-Alta_Label' htmlFor="lbl-foto">Foto</label>
           <input className="form-Alta_Input" type="text" name="foto" id="lbl-foto" value={form.foto} onChange={handleChange} />
-        </div>
+        </div> */}
+        <DragDrop />
         <div>
           <label className='form-Alta_Label' htmlFor="lbl-envio">Envío</label>
           <input className="form-Alta_Input" type="checkbox" name="envio" id="lbl-envio" checked={form.envio} onChange={handleChange} />
